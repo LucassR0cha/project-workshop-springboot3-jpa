@@ -13,7 +13,7 @@ import com.protxprts.demo.entities.User;
 import com.protxprts.demo.services.UserService;
 
 @RestController
-@RequestMapping(value = "/users/")
+@RequestMapping(value = "/users")
 public class UserResource {
 
 	@Autowired
